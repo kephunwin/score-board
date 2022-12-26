@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    background-color: 1B244A;
+    color: white;
+    font-size: xx-large;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: Verdana;
+}
+
+#homeScore {
+    position: relative;
+    left: 430px;
+    bottom: 66px;
+    font-size: 2.4em;
+    color: F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+#guestScore {
+    position: relative;
+    left: 1395px;
+    font-size: xx-large;
+    bottom: 212px;
+    color: F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 2.4em;
+}
+
+.square {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 400px;
+    top: 88px;
+    background-color: rgb(0, 0, 0);
+}
+
+.square1 {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    left: 1365px;
+    top: 88px;
+    background-color: rgb(0, 0, 0);
+}
+
+.homePoints {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 386px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.homePoints1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 450.3px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.homePoints2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 515px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.guestPoints {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1350px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.guestPoints1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1415px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+.guestPoints2 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1479px;
+    top: 240px;
+    border: 2px white solid;
+    background-color: 1B244A;
+    border-color: #9AABD8;
+    border-radius: 5px;
+}
+
+#homePoints {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#homePoints1 {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#homePoints2 {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#guestPoints {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#guestPoints1 {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#guestPoints2 {
+    position: absolute;
+    height: 25px;
+    width: 30px;
+    top: -5px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABD8;
+}
+
+#reset {
+    position: absolute;
+    left: 880px;
+    top: 175;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    border: white solid;
+    padding: 5px;
+    color: rgb(126, 192, 159);
+    font-family: Verdana;
+}
